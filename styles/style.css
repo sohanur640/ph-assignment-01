@@ -132,10 +132,20 @@
     justify-content: center;
     align-items: center;
 }
+.current-target-content{
+    padding: 25px;
+    font-size: 16px;
+    margin: 32px 97px;
+}
 .next-trgt-section{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+.naxt-target-content{
+    padding: 25px;
+    font-size: 16px;
+    margin: 32px 97px;
 }
 .trgt{
     display: flex;
@@ -171,9 +181,15 @@
     padding: 0 12px 5px 12px;
     border-radius: 10px;
 }
+.trgt{
+    margin-top: 48px;
+}
 /* target description font */
 .font-size{
+    margin-top: 0px;
     font-size: 16px;
+    text-align: center;
+    text-align: justify;
 }
 .next-trgt-section{
     margin-top: 111px;
@@ -182,6 +198,11 @@
 .inspiration{
     margin-top: 81px;
     margin-bottom: 151px;
+}
+.inspiration-content{
+    padding: 25px;
+    font-size: 16px;
+    margin: 0px 144px 48px;
 }
 .react{
     display: flex;
@@ -208,6 +229,12 @@
     font-weight: 400;
    
 }
+/* next target button */
+.next-trgt-section>a{
+    text-decoration: none;
+}
+
+
 
 /* help section */
 input{
@@ -254,6 +281,9 @@ input{
 }
 
 /* footer section */
+footer{
+    background-color: rgb(255, 243, 243);
+}
 
 .nav {
     display: flex;
