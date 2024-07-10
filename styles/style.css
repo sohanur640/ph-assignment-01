@@ -76,9 +76,11 @@
     font-size: 32px;
     justify-content: center;
     align-items: center;
+    margin-top: 15px;
 }
 .why-dev-content{
     font-size: 16px;
+    margin-top: 0px;
 }
 .first-div{
     display: flex;
@@ -91,10 +93,96 @@
     justify-content: center;
     align-items: center;
 }
+.third-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inspiration{
+    text-align: center;
+    font-size: 32;
+    justify-content: center;
+    align-items: center;
+}
+.inspiration-content{
+    font-size: 16px;
+}
 
+.tergate-section{
+    text-align: center;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.trgt{
+    display: flex;
+}
+.html1{
+    text-align: start;
+    font-size: 16px;
+}
+.css1{
+    text-align: start;
+    font-size: 16px;
+}
+.js1{
+    text-align: start;
+    font-size: 16px;
+}
+.trgt-html{
+    background-color: #f2e0dc;
+    margin-right: 24px;
+    padding: 0 10px 5px 10px;
+}
+.trgt-css{
+    background-color: #e5ecfb;
+    margin-right: 24px;
+    padding: 0px 12px 5px 12px;
+    
+}
+.trgt-js{
+    background-color: #f4edc1;
+    margin-right: 24px;
+    padding: 0 12px 5px 12px;
+}
 /* button */
 .btn-lrn{
     font-size: small;
     font-weight: 400;
    
+}
+
+/* help section */
+input{
+    width: 548px;
+    height: 57px;
+}
+.Support{
+    color: ;
+    text-align: center;
+    background-image: url(../assets/handshake.jpg);
+    width: 1140px;
+    height: 313px;
+}
+.color{
+    color: #FFFFFF;
+}
+/* .support-text{
+    color: #fbfbfb;
+    width: 606px;
+    height: 52px;
+} */
+
+.suggestion{
+    display: flex;
+    padding: 19px 20px 19px 215px;
+    /* margin-right: 16px; */
+    border-radius: 10px;
+}
+.s1{
+    margin-left: 16px;
+    width: 120px;
+    height: 57px;
+    padding: 17px 20px;
+    border-radius: 10px;
 }
