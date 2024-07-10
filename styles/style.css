@@ -4,7 +4,13 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+.bg{
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 /* header section styles */
 .header-section{
     display: flex;
@@ -29,6 +35,16 @@
     font-weight: bold;
     padding: 17px 24px;
 } 
+.contact-button{
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 17px 24px;
+    color: white;
+    text-decoration: none;
+    
+
+}
 
 /* banner */ 
 
@@ -77,10 +93,12 @@
     justify-content: center;
     align-items: center;
     margin-top: 15px;
+    padding: 32px 97px;
 }
 .why-dev-content{
+    padding: 25px;
     font-size: 16px;
-    margin-top: 0px;
+    margin: 32px 97px;
 }
 .first-div{
     display: flex;
@@ -116,6 +134,7 @@
 }
 .trgt{
     display: flex;
+    margin-right: 24px;
 }
 .html1{
     text-align: start;
@@ -157,32 +176,64 @@ input{
     width: 548px;
     height: 57px;
 }
-.Support{
-    color: ;
+.Support {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    background-image: url(../assets/handshake.jpg);
-    width: 1140px;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 1100px;
     height: 313px;
+    margin: 64px 5px ;
+    border-radius: 10px;
 }
+
+
 .color{
     color: #FFFFFF;
 }
-/* .support-text{
+.support-text{
     color: #fbfbfb;
     width: 606px;
     height: 52px;
-} */
+}
 
 .suggestion{
     display: flex;
-    padding: 19px 20px 19px 215px;
+    padding: 19px 100px 19px 100px;
     /* margin-right: 16px; */
-    border-radius: 10px;
+    border-radius: 80px;
 }
 .s1{
     margin-left: 16px;
     width: 120px;
-    height: 57px;
+    height: 67px;
     padding: 17px 20px;
     border-radius: 10px;
+}
+
+/* footer section */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav div {
+    margin-right: 20px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li {
+    margin-left: 24px; 
 }
